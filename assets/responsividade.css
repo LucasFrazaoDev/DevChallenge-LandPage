@@ -1,0 +1,175 @@
+/*<--------------- Responsividade --------------->*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    header {
+        position: static;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #apresentacao {
+        padding-left: 0;
+        margin: 20px 0 20px 20px;
+        position: static;
+    }
+    
+    #apresentacao h1, p {
+        color: #766F68;
+        font-size: 3em;
+    }
+    
+    #apresentacao p {
+        font-size: 1.3em;
+    }
+    
+    #apresentacao button {
+        width: 200px;
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 2em;
+        padding: 10px 30px;
+        background-color: #D2872C;
+        border: none;
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 500;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    
+    #img-reuniao {
+        position: static;
+    }
+    
+    img {
+        width: 400px;
+        height: 300px;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    header {
+        position: static;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #apresentacao {
+        padding-left: 0;
+        margin: 20px 0 20px 20px;
+        position: static;
+    }
+    
+    #apresentacao h1, p {
+        color: #766F68;
+        font-size: 3em;
+    }
+    
+    #apresentacao p {
+        font-size: 1.3em;
+    }
+    
+    #apresentacao button {
+        width: 200px;
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 2em;
+        padding: 10px 30px;
+        background-color: #D2872C;
+        border: none;
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 500;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    
+    #img-reuniao {
+        position: static;
+    }
+    
+    img {
+        width: 450px;
+        height: 350px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #navbar {
+        margin-right: 0.5em;
+    }
+
+    #apresentacao {
+        padding-left: 5em;
+        margin: 20px 0 20px 20px;
+        position: absolute;
+        top: 55px;
+        left: -40px;
+        z-index: 5;
+    }
+
+    #apresentacao h1, p {
+        color: #766F68;
+        font-size: 3.5em;
+    }
+    
+    #apresentacao p {
+        font-size: 1.2em;
+    }
+
+    #img-reuniao {
+        position: relative;
+        top: 5.5em;
+        left: 15em;
+    }
+    
+    img {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #navbar {
+        margin-right: 0.5em;
+    }
+
+    #apresentacao {
+        padding-left: 5em;
+        margin: 20px 0 20px 20px;
+        position: absolute;
+        top: 24;
+        left: -40;
+        z-index: 5;
+    }
+
+    #img-reuniao {
+        position: relative;
+        top: 5.5em;
+        left: 20em;
+    }
+    
+    img {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+ }
